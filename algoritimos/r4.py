@@ -9,7 +9,7 @@ def mesclar(lista1, lista2):
     else:
         v = lista2.pop(0)
 
-    resto = mesclar(lista1, lista2)
+    resto = mesclar(lista1, lista2) 
 
     return [v] + resto
   
